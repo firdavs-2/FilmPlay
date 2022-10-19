@@ -1,0 +1,1302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adv{
+    width: 100%;
+    height: 470px;
+    background-image: url(./maxresdefault.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+}
+body{
+    background: skyblue;
+}
+
+.menu{
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(aqua,red);
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.carousel-control-next{
+    margin-top: -70rem;
+}
+.carousel-control-prev{
+    margin-top: -70rem;
+}
+.menu .navbar{
+    text-align: start;
+    margin: 20px;
+    
+}
+.menu .navbar h1{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.menu h4{
+    margin-left: 100px;
+    margin-top: 20px;
+    color:yellowgreen;
+}
+.menu h4:hover{
+    margin-left: 100px;
+    margin-top: 18px;
+    border-top: solid blue;
+    color:rgb(166, 255, 0);
+    
+}
+
+
+.box{
+    width: 100%;
+    height: 15400px;
+    background: skyblue;
+    
+}
+
+.box > .box-min{
+position: relative;
+width: 280px;
+height: 350px;
+background-color: aquamarine;
+display: inline-block;
+margin: 70px 0 0 35px;
+box-sizing: border-box;
+transition:all ease 0.9s ;
+}
+.box .zur{
+    width: 80%;
+    height: 50%;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.box .invon h1{
+    margin-left: 35%;
+    margin-top: 170px;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    color: darkblue;
+}
+
+/* kinolar */
+
+.kino{
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    justify-content: space-around;
+}
+.kinoo{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    justify-content: space-around;
+}
+.lar{
+    width: 340px;
+    height: 270px;
+    background: linear-gradient(rgb(0, 4, 255),rgb(247, 244, 244));
+}
+
+.lar video{
+    width: 340px;
+    height: 200px;
+    margin-top: -5px;
+}
+
+.lar h4{
+    margin-left: 20px;
+    color: rgb(46, 46, 68);
+   
+}
+.h1{
+    align-items: center;
+    justify-content: center;
+}
+.h1 h1{
+    background-color: black;
+    color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 50%;
+}
+.h1 h5{
+    background-color: red;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+}
+.h1 h2{
+    background-color: blue;
+    color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 20%;
+}
+.h1 h3{
+    background-color: green;
+    color: blueviolet;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+}
+.h1 h4{
+    background-color: blueviolet;
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 50%;
+}
+.oh{
+    width: 100%;
+    height: 200px;
+    background:linear-gradient(blue,aqua);
+    margin-top: 100px;
+   display: flex;
+}
+.navbr{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    
+}
+.navbr h1{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: rgb(54, 54, 54);
+    font-size: 60px;
+}
+.navbr .bi{
+    margin-top: 105px;
+    color: rgb(71, 71, 71);
+    font-size: 60px;
+}
+.aloqa{
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+.aloqa i{
+    font-size: 30px;
+    color: crimson;
+}
+.aloqa i:hover{
+    font-size: 31px;
+    margin-left: -5px;
+}
+.aloqa .bo{
+    font-size: 30px;
+    color: darksalmon;
+}
+.aloqa .bo:hover{
+    color: darkmagenta;
+}
+.aloqa .bik{
+    color: dodgerblue;
+}
+.aloqa .bik:hover{
+    color:blue;
+}
+.aloqa .by{
+    color: orangered;
+}
+.aloqa .by:hover{
+    color: red;
+}
+
+/* bosqa9 */
+
+
+.baack{
+    width: 80%;
+    height: 270px;
+    margin-left: 135px;
+    }
+    .caontain{
+      overflow: hidden;
+      z-index: 222;
+      border-radius: 8px;
+    }
+    
+    .baox{
+      display: flex;
+      position: relative;
+    transition: transform 0.5s ease-out;
+    
+    }
+    
+    .salide{
+      width: 22rem;
+      height: 250px;
+      margin: 0.6rem;
+    }
+    .naext{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    cursor: pointer;
+    }
+    .parew{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    cursor: pointer;
+    }
+    
+    
+   /*boshqa9  */
+
+   .search-container{
+    background: #fff;
+    margin-left: 150px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+    width: 400px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 3;
+}
+
+@media(max-width:992px){
+    .adv{
+        width: 62rem;
+        height: 470px;
+        background-image: url(./maxresdefault.jpg);
+        
+    }
+    
+    .menu{
+        width: 100%;
+        height: 85px;
+        background: linear-gradient(aqua,red);
+        align-items: center;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .carousel-control-next{
+        margin-top: -70rem;
+    }
+    .carousel-control-prev{
+        margin-top: -70rem;
+    }
+    .menu .navbar{
+        text-align: start;
+        margin: 20px;
+          
+    }
+    .menu .navbar h1{
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-size: 30px;
+    }
+    .menu h4{
+        margin-left: 150px;
+    margin-top: 20px;
+    color:yellowgreen;
+    }
+    .menu h4:hover{
+        margin-left: 100px;
+        margin-top: 18px;
+        border-top: solid blue;
+        color:rgb(166, 255, 0);
+        
+    }
+    
+    
+    .box{
+        width: 100%;
+        height: 15000px;
+        background: skyblue;
+       
+    }
+    
+    .box > .box-min{
+    position: relative;
+    width: 280px;
+    height: 350px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 70px 0 0 35px;
+    box-sizing: border-box;
+    transition:all ease 0.9s ;
+    }
+    .box .zur{
+        width: 80%;
+        height: 50%;
+        margin-left: 60px;
+        margin-top: 120px;
+    }
+    .box .invon h1{
+        margin-left: 25%;
+        margin-top: 170px;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Prompt', sans-serif;
+        color: darkblue;
+    }
+    
+    /* kinolar */
+    
+    .kino{
+        display: flex;
+        margin-left: 70px;
+        margin-top: 80px;
+        color: white;
+        justify-content: space-around;
+    }
+    .kinoo{
+        display: flex;
+        margin-left: 70px;
+        margin-top: 20px;
+        color: white;
+        justify-content: space-around;
+    }
+    .lar{
+        width: 320px;
+        height: 250px;
+        margin-left: 5px;
+        background: linear-gradient(rgb(0, 4, 255),rgb(247, 244, 244));
+    }
+    
+    .lar video{
+        width: 320px;
+        height: 200px;
+        margin-top:-10px;
+    }
+    
+    .lar h4{
+        margin-left: 20px;
+        color: rgb(46, 46, 68);
+       
+    }
+    .h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .h1 h1{
+        background-color: black;
+        color: red;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .h1 h5{
+        background-color: red;
+        color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h2{
+        background-color: blue;
+        color: green;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 20%;
+    }
+    .h1 h3{
+        background-color: green;
+        color: blueviolet;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h4{
+        background-color: blueviolet;
+        color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .oh{
+        width: 100%;
+        height: 170px;
+        background:linear-gradient(blue,aqua);
+        margin-top: 300px;
+       display: flex;
+    }
+    .navbr{
+        display: flex;
+        align-items: center;
+        margin-top: -100px;
+        
+    }
+    .navbr h1{
+        margin-top: 100px;
+        margin-left: 30px;
+        color: rgb(54, 54, 54);
+        font-size: 30px;
+    }
+    .navbr .bi{
+        margin-top: 105px;
+        color: rgb(71, 71, 71);
+        font-size: 60px;
+    }
+    .aloqa{
+        margin-left: 200px;
+        margin-top: 100px;
+        
+    }
+    .aloqa h5{
+        font-size: 26px;
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+    .aloqa a{
+        font-size: 30px;
+        margin-left: -30px;
+        margin-top: -50px;
+    }
+    .aloqa i{
+        font-size: 30px;
+        color: crimson;
+    }
+    .aloqa i:hover{
+        font-size: 31px;
+        margin-left: -5px;
+    }
+    .aloqa .bo{
+        font-size: 30px;
+        margin-left: -10px;
+        color: darksalmon;
+    }
+    .aloqa .bo:hover{
+        color: darkmagenta;
+    }
+    .aloqa .bik{
+        margin-left: 30px;
+        color: dodgerblue;
+    }
+    .aloqa .bik:hover{
+        color:blue;
+    }
+    .aloqa .by{
+        color: orangered;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+    .aloqa .by:hover{
+        color: red;
+    }
+    
+    /* bosqa9 */
+    
+    
+    .baack{
+        width: 60%;
+        height: 270px;
+        margin-left: 125px;
+        }
+        .caontain{
+          overflow: hidden;
+          z-index: 222;
+          border-radius: 8px;
+        }
+        
+        .baox{
+          display: flex;
+          position: relative;
+        transition: transform 0.5s ease-out;
+        
+        }
+        
+        .salide{
+          width: 22rem;
+          height: 250px;
+          margin: 0.6rem;
+        }
+        .naext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        right: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        .parew{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        
+        
+       /*boshqa9  */
+
+       
+   .search-container{
+    background: #fff;
+    margin-left: -350px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+    width: 350px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 3;
+}
+   }
+   /* 13 */
+
+/* 12 */
+@media(max-width:768px){
+    .adv{
+        width: 48rem;
+        height: 470px;
+        background-image: url(./maxresdefault.jpg);
+        
+    }
+    
+    .menu{
+        width: 100%;
+        height: 85px;
+        background: linear-gradient(aqua,red);
+        align-items: center;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .carousel-control-next{
+        margin-top: -70rem;
+    }
+    .carousel-control-prev{
+        margin-top: -70rem;
+    }
+    .menu .navbar{
+        text-align: start;
+        margin: 20px;
+          
+    }
+    .menu .navbar h1{
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-size: 30px;
+    }
+    .menu h4{
+        margin-left: 150px;
+    margin-top: 20px;
+    color:yellowgreen;
+    }
+    .menu h4:hover{
+        margin-left: 100px;
+        margin-top: 18px;
+        border-top: solid blue;
+        color:rgb(166, 255, 0);
+        
+    }
+    
+    
+    .box{
+        width: 100%;
+        height: 15000px;
+        background: skyblue;
+       
+    }
+    
+    .box > .box-min{
+    position: relative;
+    width: 280px;
+    height: 350px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 70px 0 0 35px;
+    box-sizing: border-box;
+    transition:all ease 0.9s ;
+    }
+    .box .zur{
+        width: 80%;
+        height: 50%;
+        margin-left: 60px;
+        margin-top: 120px;
+    }
+    .box .invon h1{
+        margin-left: 25%;
+        margin-top: 170px;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Prompt', sans-serif;
+        color: darkblue;
+    }
+    
+    /* kinolar */
+    
+    .kino{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 80px;
+        color: white;
+        justify-content: space-around;
+    }
+    .kinoo{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 5px;
+        color: white;
+        justify-content: space-around;
+    }
+    .lar{
+        width: 250px;
+        height: 220px;
+        margin-left: 5px;
+        background: linear-gradient(rgb(0, 4, 255),rgb(247, 244, 244));
+    }
+    
+    .lar video{
+        width: 250px;
+        height: 150px;
+        margin-top: -5px;
+    }
+    
+    .lar h4{
+        margin-left: 20px;
+        color: rgb(46, 46, 68);
+       
+    }
+    .h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .h1 h1{
+        background-color: black;
+        color: red;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .h1 h5{
+        background-color: red;
+        color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h2{
+        background-color: blue;
+        color: green;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 20%;
+    }
+    .h1 h3{
+        background-color: green;
+        color: blueviolet;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h4{
+        background-color: blueviolet;
+        color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .oh{
+        width: 100%;
+        height: 170px;
+        background:linear-gradient(blue,aqua);
+        margin-top: 150px;
+       display: flex;
+    }
+    .navbr{
+        display: flex;
+        align-items: center;
+        margin-top: -100px;
+        
+    }
+    .navbr h1{
+        margin-top: 100px;
+        margin-left: 30px;
+        color: rgb(54, 54, 54);
+        font-size: 30px;
+    }
+    .navbr .bi{
+        margin-top: 105px;
+        color: rgb(71, 71, 71);
+        font-size: 60px;
+    }
+    .aloqa{
+        margin-left: 200px;
+        margin-top: 100px;
+        
+    }
+    .aloqa h5{
+        font-size: 25px;
+        margin-left: -90px;
+        margin-top: -10px;
+    }
+    .aloqa a{
+        font-size: 20px;
+        margin-left: -90px;
+        margin-top: -50px;
+    }
+    .aloqa i{
+        font-size: 30px;
+        color: crimson;
+    }
+    .aloqa i:hover{
+        font-size: 31px;
+        margin-left: -5px;
+    }
+    .aloqa .bo{
+        font-size: 30px;
+        margin-left: -80px;
+        color: darksalmon;
+    }
+    .aloqa .bo:hover{
+        color: darkmagenta;
+    }
+    .aloqa .bik{
+        margin-left: 100px;
+        color: dodgerblue;
+    }
+    .aloqa .bik:hover{
+        color:blue;
+    }
+    .aloqa .by{
+        color: orangered;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .aloqa .by:hover{
+        color: red;
+    }
+    
+    /* bosqa9 */
+    
+    
+    .baack{
+        width: 60%;
+        height: 270px;
+        margin-left: 125px;
+        }
+        .caontain{
+          overflow: hidden;
+          z-index: 222;
+          border-radius: 8px;
+        }
+        
+        .baox{
+          display: flex;
+          position: relative;
+        transition: transform 0.5s ease-out;
+        
+        }
+        
+        .salide{
+          width: 22rem;
+          height: 250px;
+          margin: 0.6rem;
+        }
+        .naext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        right: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        .parew{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        
+        
+       /*boshqa9  */
+
+       
+   .search-container{
+    background: #fff;
+    margin-left: -350px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+    width: 350px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 3;
+}
+   }
+   
+/* 12 */
+
+
+
+   /* 11 */
+   @media(max-width:576px){
+    .adv{
+        width: 36rem;
+        height: 470px;
+        background-image: url(./maxresdefault.jpg);
+        
+    }
+    
+    .menu{
+        width: 100%;
+        height: 85px;
+        background: linear-gradient(aqua,red);
+        align-items: center;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .carousel-control-next{
+        margin-top: -70rem;
+    }
+    .carousel-control-prev{
+        margin-top: -70rem;
+    }
+    .menu .navbar{
+        text-align: start;
+        margin: 20px;
+          
+    }
+    .menu .navbar h1{
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-size: 30px;
+    }
+    .menu h4{
+        margin-left: 100px;
+    margin-top: 20px;
+    color:yellowgreen;
+    }
+    .menu h4:hover{
+        margin-left: 100px;
+        margin-top: 18px;
+        border-top: solid blue;
+        color:rgb(166, 255, 0);
+        
+    }
+    
+    
+    .box{
+        width: 100%;
+        height: 15000px;
+        background: skyblue;
+       
+    }
+    
+    .box > .box-min{
+    position: relative;
+    width: 280px;
+    height: 350px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin: 70px 0 0 35px;
+    box-sizing: border-box;
+    transition:all ease 0.9s ;
+    }
+    .box .zur{
+        width: 80%;
+        height: 50%;
+        margin-left: 60px;
+        margin-top: 120px;
+    }
+    .box .invon h1{
+        margin-left: 25%;
+        margin-top: 170px;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Prompt', sans-serif;
+        color: darkblue;
+    }
+    
+    /* kinolar */
+    
+    .kino{
+        display: flex;
+        margin-top: 80px;
+        color: white;
+        justify-content: space-around;
+    }
+    .kinoo{
+        display: flex;
+        margin-top: 35px;
+        color: white;
+        justify-content: space-around;
+    }
+    .lar{
+        width: 170px;
+        height: 180px;
+        margin-left: 5px;
+        background: linear-gradient(rgb(0, 4, 255),rgb(247, 244, 244));
+    }
+    
+    .lar video{
+        width: 170px;
+        height: 105px;
+        margin-top: -5px;
+    }
+    
+    .lar h4{
+        margin-left: 20px;
+        color: rgb(46, 46, 68);
+       
+    }
+    .h1{
+        align-items: center;
+        justify-content: center;
+    }
+    .h1 h1{
+        background-color: black;
+        color: red;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .h1 h5{
+        background-color: red;
+        color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h2{
+        background-color: blue;
+        color: green;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 20%;
+    }
+    .h1 h3{
+        background-color: green;
+        color: blueviolet;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+    }
+    .h1 h4{
+        background-color: blueviolet;
+        color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+    }
+    .oh{
+        width: 100%;
+        height: 170px;
+        background:linear-gradient(blue,aqua);
+        margin-top: 150px;
+       display: flex;
+    }
+    .navbr{
+        display: flex;
+        align-items: center;
+        margin-top: -100px;
+        
+    }
+    .navbr h1{
+        margin-top: 100px;
+        margin-left: 30px;
+        color: rgb(54, 54, 54);
+        font-size: 30px;
+    }
+    .navbr .bi{
+        margin-top: 105px;
+        color: rgb(71, 71, 71);
+        font-size: 60px;
+    }
+    .aloqa{
+        margin-left: 200px;
+        margin-top: 100px;
+        
+    }
+    .aloqa h5{
+        font-size: 20px;
+        margin-left: -190px;
+        margin-top: -10px;
+    }
+    .aloqa a{
+        font-size: 20px;
+        margin-left: -190px;
+        margin-top: -50px;
+    }
+    .aloqa i{
+        font-size: 30px;
+        color: crimson;
+    }
+    .aloqa i:hover{
+        font-size: 31px;
+        margin-left: -5px;
+    }
+    .aloqa .bo{
+        font-size: 30px;
+        margin-left: -100px;
+        color: darksalmon;
+    }
+    .aloqa .bo:hover{
+        color: darkmagenta;
+    }
+    .aloqa .bik{
+        margin-left: 60px;
+        color: dodgerblue;
+    }
+    .aloqa .bik:hover{
+        color:blue;
+    }
+    .aloqa .by{
+        color: orangered;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+    .aloqa .by:hover{
+        color: red;
+    }
+    
+    /* bosqa9 */
+    
+    
+    .baack{
+        width: 60%;
+        height: 270px;
+        margin-left: 125px;
+        }
+        .caontain{
+          overflow: hidden;
+          z-index: 222;
+          border-radius: 8px;
+        }
+        
+        .baox{
+          display: flex;
+          position: relative;
+        transition: transform 0.5s ease-out;
+        
+        }
+        
+        .salide{
+          width: 22rem;
+          height: 250px;
+          margin: 0.6rem;
+        }
+        .naext{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        right: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        .parew{
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        cursor: pointer;
+        }
+        
+        
+       /*boshqa9  */
+
+       
+   .search-container{
+    background: #fff;
+    margin-left: -350px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.search-container:hover > .search-input{
+    width: 350px;
+}
+
+.search-container .search-input{
+    background: transparent;
+    border: none;
+    outline:none;
+    width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+    color: #5cbdbb;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 3;
+}
+   }
+   /* 11 */

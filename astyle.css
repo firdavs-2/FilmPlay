@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.box{
+    width: 90%;
+    height: 30rem;
+    margin-left: 50rem;
+    margin-top: -30rem;
+    background: linear-gradient(aqua,red);
+}
+.h1{
+    margin-left: 40rem;
+    margin-top: -31rem;
+}
+.h1 h1{
+    background-color: black;
+    color: red;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 50%;
+    text-align: center;
+}
+.h1 h5{
+    background-color: red;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    text-align: center;
+}
+.h1 h2{
+    background-color: blue;
+    color: green;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 20%;
+    text-align: center;
+}
+.h1 h3{
+    background-color: green;
+    color: blueviolet;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    text-align: center;
+}
+.h1 h4{
+    background-color: blueviolet;
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    border-radius: 50%;
+    text-align: center;
+}
+.navbar{
+    text-align: start;
+    
+
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(aqua,red);
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    justify-content: space-around;
+    
+}
+.navbar h1{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.ura{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 35rem;
+    height: 35rem;
+}
+.och{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+.och img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+/* 9 */
+
+
+
+.bfack{
+    width: 33rem;
+    height: 400px;
+    margin-left: 12px;
+    margin-top: 50px;
+    }
+    .cfontain{
+      overflow: hidden;
+      z-index: 222;
+      border-radius: 8px;
+    }
+    
+    .bfox{
+      display: flex;
+      position: relative;
+    transition: transform 0.5s ease-out;
+    
+    }
+    
+    .sflide{
+      width: 33rem;
+      height: 25rem;
+    }
+    .nfext{
+    color: wheat;
+    font-size: 40px;
+    position: absolute;
+    right: 57%;
+    top: 40%;
+    cursor: pointer;
+    }
+    .pfrew{
+    color: wheat;
+    font-size: 40px;
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    cursor: pointer;
+    }
+    
+    .nfext:hover{
+        color: rgb(41, 255, 22);
+        }
+        .pfrew:hover{
+        color: rgb(41, 255, 22);
+        }
+        
+        #fil{
+            color: red;
+        }
+        .nimabu{
+            width: 85.3rem;
+            height: 50px;
+            margin-top: 268px;
+            margin-left: -20px;
+            background: linear-gradient(aqua,red);
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .navbar a b{
+           border-top: 2px dotted blue;
+           font-size: 20px;
+          
+        }
+        .navbar a b:hover{
+            border-top: 2px solid blue;
+            font-size: 20px;
+         }
+        .box h1{
+            margin: 30px;
+            color: rgb(28, 31, 51);
+        }
+        .box h3{
+            margin: 20px;
+            color: brown;
+            font-size: 26px;
+        }
+        .box p{
+            margin: 20px;
+            color: rgb(29, 29, 29);
+            font-size: 18px;
+        }
+        .box h2{
+            margin: 20px;
+            color: rgb(26, 26, 49);
+        }
+
+        @media(max-width:992px){
+            .box{
+                width:50%;
+                height: 58rem;
+                margin-left: 35rem;
+                margin-top: -35.8rem;
+                background: linear-gradient(aqua,red);
+            }
+            .h1{
+                margin-left: -0rem;
+                margin-top: 3rem;
+                display: flex;
+            }
+            .h1 h1{
+                background-color: black;
+                color: red;
+                width: 100px;
+                height: 100px;
+                font-size: 90px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            .h1 h5{
+                background-color: red;
+                color: blue;
+                width: 100px;
+                height: 100px;
+                font-size: 90px;
+                text-align: center;
+            }
+            .h1 h2{
+                background-color: blue;
+                color: green;
+                width: 100px;
+                height: 100px;
+                font-size: 90px;
+                border-radius: 20%;
+                text-align: center;
+            }
+            .h1 h3{
+                background-color: green;
+                color: blueviolet;
+                width: 100px;
+                height: 100px;
+                font-size: 90px;
+                text-align: center;
+            }
+            .h1 h4{
+                background-color: blueviolet;
+                color: yellow;
+                width: 100px;
+                height: 100px;
+                font-size: 90px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            .navbar{
+                text-align: start;
+                
+            
+                width: 60rem;
+                height: 85px;
+                background: linear-gradient(aqua,red);
+                align-items: center;
+                display: flex;
+                position: sticky;
+               margin-left: -0.5rem;
+                top: 0;
+                z-index: 2;
+                justify-content: space-around;
+                
+            }
+            .navbar h1{
+                font-family: 'Alumni Sans Collegiate One', sans-serif;
+            }
+            .ura{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 35rem;
+                height: 35rem;
+            }
+            .och{
+                margin-top: 20px;
+                width: 100%;
+                height: 250px;
+                background-color: blue;
+            }
+            .och img{
+                width: 100%;
+                height: 250px;
+            }
+            
+            
+            
+            /* 9 */
+            
+            
+            
+            .bfack{
+                width: 33rem;
+                height: 400px;
+                margin-left: 12px;
+                margin-top: 50px;
+                }
+                .cfontain{
+                  overflow: hidden;
+                  z-index: 222;
+                  border-radius: 8px;
+                }
+                
+                .bfox{
+                  display: flex;
+                  position: relative;
+                transition: transform 0.5s ease-out;
+                
+                }
+                
+                .sflide{
+                  width: 33rem;
+                  height: 25rem;
+                }
+                .nfext{
+                color: wheat;
+                font-size: 40px;
+                position: absolute;
+                right: 45%;
+                top: 46%;
+                cursor: pointer;
+                }
+                .pfrew{
+                color: wheat;
+                font-size: 40px;
+                position: absolute;
+                left: 4.5%;
+                top: 46%;
+                cursor: pointer;
+                }
+                
+                .nfext:hover{
+                    color: rgb(41, 255, 22);
+                    }
+                    .pfrew:hover{
+                    color: rgb(41, 255, 22);
+                    }
+                    
+                    #fil{
+                        color: red;
+                    }
+                    .nimabu{
+                        width: 35rem;
+                        height: 50px;
+                        margin-top: -3rem;
+                        margin-left: -20px;
+                        background: linear-gradient(aqua,red);
+                        display: flex;
+                        justify-content: space-around;
+                        
+                    }
+                    .navbar a b{
+                       border-top: 2px dotted blue;
+                       font-size: 20px;
+                      
+                    }
+                    .navbar a b:hover{
+                        border-top: 2px solid blue;
+                        font-size: 20px;
+                     }
+                    .box h1{
+                        margin: 30px;
+                        color: rgb(28, 31, 51);
+                    }
+                    .box h3{
+                        margin: 20px;
+                        color: brown;
+                        font-size: 26px;
+                    }
+                    .box p{
+                        margin: 20px;
+                        color: rgb(29, 29, 29);
+                        font-size: 18px;
+                    }
+                    .box h2{
+                        margin: 20px;
+                        color: rgb(26, 26, 49);
+                    }
+            
+        }
+
+
+        
+        @media(max-width:768px){
+
+        
+        
+            .box{
+                width: 40rem;
+                height: 32rem;
+                margin-left: -0.3rem;
+                margin-top: 7rem;
+                background: linear-gradient(aqua,green)
+            }
+            .h1{
+                margin-left: 35rem;
+                margin-top: -22rem;
+                display: block;
+            }
+            .h1 h1{
+                background-color: black;
+                color: red;
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            .h1 h5{
+                background-color: red;
+                color: blue;
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+                text-align: center;
+            }
+            .h1 h2{
+                background-color: blue;
+                color: green;
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+                border-radius: 20%;
+                text-align: center;
+            }
+            .h1 h3{
+                background-color: green;
+                color: blueviolet;
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+                text-align: center;
+            }
+            .h1 h4{
+                background-color: blueviolet;
+                color: yellow;
+                width: 70px;
+                height: 70px;
+                font-size: 60px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            .navbar{
+                text-align: start;
+                
+            
+                width: 40rem;
+                height: 85px;
+                background: linear-gradient(aqua,red);
+                align-items: center;
+                display: flex;
+                position: sticky;
+                top: 0;
+                z-index: 2;
+                justify-content: space-around;
+                
+            }
+            .navbar h1{
+                font-family: 'Alumni Sans Collegiate One', sans-serif;
+            }
+            .ura{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 35rem;
+                height: 35rem;
+            }
+            .och{
+                margin-top: 20px;
+                width: 100%;
+                height: 250px;
+                background-color: blue;
+            }
+            .och img{
+                width: 100%;
+                height: 250px;
+            }
+
+            .bfack{
+                width: 33rem;
+                height: 400px;
+                margin-left: 12px;
+                margin-top: 50px;
+                }
+                .cfontain{
+                  overflow: hidden;
+                  z-index: 222;
+                  border-radius: 8px;
+                }
+                
+                .bfox{
+                  position: relative;
+                transition: transform 0.5s ease-out;
+                
+                }
+                
+                .sflide{
+                  width: 33rem;
+                  height: 25rem;
+                }
+                .nfext{
+                color: wheat;
+                font-size: 40px;
+                position: absolute;
+                right: 18%;
+                top: 52%;
+                cursor: pointer;
+                }
+                .pfrew{
+                color: wheat;
+                font-size: 40px;
+                position: absolute;
+                left: 6%;
+                top: 52%;
+                cursor: pointer;
+                }
+                
+                .nfext:hover{
+                    color: rgb(41, 255, 22);
+                    }
+                    .pfrew:hover{
+                    color: rgb(41, 255, 22);
+                    }
+                    
+                    #fil{
+                        color: red;
+                    }
+                    .nimabu{
+                        width: 41.9rem;
+                        height: 50px;
+                        margin-top: 10px;
+                        margin-left: -20px;
+                        background: linear-gradient(aqua,red);
+                        justify-content: space-around;
+                        
+                    }
+                    .navbar a b{
+                       border-top: 2px dotted blue;
+                       font-size: 20px;
+                      
+                    }
+                    .navbar a b:hover{
+                        border-top: 2px solid blue;
+                        font-size: 20px;
+                     }
+                    .box h1{
+                        margin: 30px;
+                        color: rgb(28, 31, 51);
+                    }
+                    .box h3{
+                        margin: 20px;
+                        color: brown;
+                        font-size: 26px;
+                    }
+                    .box p{
+                        margin: 20px;
+                        color: rgb(29, 29, 29);
+                        font-size: 18px;
+                    }
+                    .box h2{
+                        margin: 20px;
+                        color: rgb(26, 26, 49);
+                    }
+        
+        }
+    
+/* telfon */
+@media(max-width:576px){
+
+    
+    
+    .box{
+        width: 90%;
+        height: 30rem;
+        margin-left: 1.5rem;
+        margin-top: 5rem;
+        background: linear-gradient(aqua,rgb(29, 26, 26));
+    }
+    .h1{
+        margin-left: 1rem;
+        margin-top: 4rem;
+        display: flex;
+    }
+    .h1 h1{
+        background-color: black;
+        color: red;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .h1 h5{
+        background-color: red;
+        color: blue;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        text-align: center;
+    }
+    .h1 h2{
+        background-color: blue;
+        color: green;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 20%;
+        text-align: center;
+    }
+    .h1 h3{
+        background-color: green;
+        color: blueviolet;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        text-align: center;
+    }
+    .h1 h4{
+        background-color: blueviolet;
+        color: yellow;
+        width: 100px;
+        height: 100px;
+        font-size: 90px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .navbar{
+        text-align: start;
+        
+    
+        width: 100%;
+        height: 85px;
+        background: linear-gradient(aqua,red);
+        align-items: center;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        justify-content: space-around;
+        
+    }
+    .navbar h1{
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+    }
+    .ura{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 35rem;
+        height: 35rem;
+    }
+    .och{
+        margin-top: 20px;
+        width: 100%;
+        height: 250px;
+        background-color: blue;
+    }
+    .och img{
+        width: 100%;
+        height: 250px;
+    }
+    
+    
+    
+    /* 9 */
+    
+    
+    
+    .bfack{
+        width: 33rem;
+        height: 400px;
+        margin-left: 12px;
+        margin-top: 50px;
+        }
+        .cfontain{
+          overflow: hidden;
+          z-index: 222;
+          border-radius: 8px;
+        }
+        
+        .bfox{
+          position: relative;
+        transition: transform 0.5s ease-out;
+        
+        }
+        
+        .sflide{
+          width: 33rem;
+          height: 25rem;
+        }
+        .nfext{
+        color: wheat;
+        font-size: 40px;
+        position: absolute;
+        right: 5%;
+        top: 60%;
+        cursor: pointer;
+        }
+        .pfrew{
+        color: wheat;
+        font-size: 40px;
+        position: absolute;
+        left: 8%;
+        top: 60%;
+        cursor: pointer;
+        }
+        
+        .nfext:hover{
+            color: rgb(41, 255, 22);
+            }
+            .pfrew:hover{
+            color: rgb(41, 255, 22);
+            }
+            
+            #fil{
+                color: red;
+            }
+            .nimabu{
+                width: 36rem;
+                height: 50px;
+                margin-top: 38px;
+                margin-left: -20px;
+                background: linear-gradient(aqua,red);
+                justify-content: space-around;
+                
+            }
+            .navbar a b{
+               border-top: 2px dotted blue;
+               font-size: 20px;
+              
+            }
+            .navbar a b:hover{
+                border-top: 2px solid blue;
+                font-size: 20px;
+             }
+            .box h1{
+                margin: 30px;
+                color: rgb(28, 31, 51);
+            }
+            .box h3{
+                margin: 20px;
+                color: brown;
+                font-size: 26px;
+            }
+            .box p{
+                margin: 20px;
+                color: rgb(29, 29, 29);
+                font-size: 18px;
+            }
+            .box h2{
+                margin: 20px;
+                color: rgb(26, 26, 49);
+            }
+
+}
+
+
+    
+    
+    
+    /* 9 */
+    
+    
+   
